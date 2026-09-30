@@ -203,7 +203,7 @@ export default function Purchases() {
               <td>{p.purchaseDate}</td>
               <td>{p.asset?.assetName} <small style={{ color: '#7f8c8d' }}>({p.asset?.assetCode})</small></td>
               <td>{p.base?.baseName}</td>
-              <td><strong style={{ color: '#27ae60' }}>+{p.quantity}</strong></td>
+              <td><strong>{p.quantity}</strong></td>
               <td>{p.supplier || 'N/A'}</td>
             </tr>
           ))}

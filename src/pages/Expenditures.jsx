@@ -212,7 +212,7 @@ export default function Expenditures() {
             <tr key={e.id}>
               <td><strong>{e.asset?.assetName}</strong> ({e.asset?.assetCode})</td>
               <td>{e.base?.baseName}</td>
-              <td>-{e.quantity}</td>
+              <td>{e.quantity}</td>
               <td>{e.reason}</td>
               <td>{e.expenditureDate}</td>
             </tr>
